@@ -414,3 +414,9 @@ template {
 [hidden] {
   display: none;
 }
+
+/* MEU */
+
+body {
+  margin: 0;
+}

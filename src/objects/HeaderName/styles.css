@@ -1,0 +1,7 @@
+.header-name {
+  color: var(--color-zero);
+  text-transform: uppercase;
+  font-size: var(--size-min);
+  font-weight: 800;
+  letter-spacing: 5.4px;
+}
