@@ -1,20 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import avatar from './img/avatar.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Em construção.</p>
+    <div className="under-construction">
+      <header className="content">
+        <img src={avatar} className="avatar" alt="logo" />
+        <p className="text">Em construção.</p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="link"
+          href="https://github.com/rafaeldellaquila/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
+        </a>
+        <a
+          className="link"
+          href="mailto:rafadellaquila@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          rafadellaquila@gmail.com
         </a>
       </header>
     </div>

@@ -1,22 +1,24 @@
-.App {
+.under-construction {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+.content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--color-zero);
 }
 
-.App-link {
-  color: #09d3ac;
+.content > .avatar {
+  height: 40vmin;
+}
+
+.content > .text {
+  text-transform: uppercase;
+}
+.content > .link {
+  color: var(--color-secondary);
+  margin-bottom: 10px;
 }
