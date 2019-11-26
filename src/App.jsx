@@ -1,14 +1,13 @@
 import React from 'react';
-// import avatar from './img/avatar.png';
 import './App.css';
 import HeaderPage from './component/HeaderPage';
-import BannerTitle from './objects/BannerTitle';
+import BannerHome from './component/BannerHome';
 
 function App() {
   return (
     <>
       <HeaderPage />
-      <BannerTitle />
+      <BannerHome />
     </>
   );
 }
