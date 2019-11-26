@@ -1,0 +1,11 @@
+.banner-home {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: var(--space-med) 0 var(--space-med) 0;
+}
+
+.banner-home > .banner-title {
+  margin-bottom: var(--space-med);
+}

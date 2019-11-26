@@ -1,0 +1,7 @@
+.header-page {
+  width: 100vw;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  padding: var(--space-min) 0 var(--space-min) 0;
+}
