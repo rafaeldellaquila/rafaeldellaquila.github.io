@@ -3,6 +3,7 @@ import './App.css';
 import HeaderPage from './component/HeaderPage';
 import BannerHome from './component/BannerHome';
 import SocialIcons from './objects/SocialIcons';
+import AboutMe from './objects/AboutMe';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeaderPage />
       <BannerHome />
       <SocialIcons />
+      <AboutMe />
     </>
   );
 }
