@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 import Github from '../../img/icon-github.png';
 import Behance from '../../img/icon-behance.png';
 import Email from '../../img/icon-email.png';
