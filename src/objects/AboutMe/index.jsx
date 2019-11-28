@@ -12,7 +12,7 @@ function AboutMe() {
         experiência pude trabalhar com diversas marcas atuando como Diretor de
         arte e Designer e agora estou em busca de um novo desafio, o Front-end.
       </p>
-      <a href="#to-do" className="portifolio">
+      <a href="https://github.com/rafaeldellaquila" className="portifolio">
         Aqui você poderá ver alguns projetos que eu estou fazendo.
       </a>
     </article>
