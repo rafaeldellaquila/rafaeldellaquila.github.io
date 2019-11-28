@@ -4,7 +4,7 @@ import './styles.css';
 
 function ScrollArrow() {
   return (
-    <a className="scroll-arrow" href="#about-me">
+    <a className="scroll-arrow" href="#about-section">
       scroll
       <img src={DownArrow} alt="down arrow scroll" className="arrow" />
     </a>
