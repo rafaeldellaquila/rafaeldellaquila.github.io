@@ -15,5 +15,4 @@
 .about-me > .portifolio {
   color: var(--color-primary);
   font: italic normal normal var(--size-med) / 1.25 'Merriweather', sans-serif;
-  letter-spacing: 0.5px;
 }
