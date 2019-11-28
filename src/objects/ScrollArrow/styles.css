@@ -2,13 +2,13 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-}
-.scroll-arrow > .text {
   color: var(--color-zero);
   font-size: var(--size-min);
+  text-decoration: none;
 }
 
 .scroll-arrow > .arrow {
   width: 34px;
   height: 34px;
+  margin-top: 5px;
 }

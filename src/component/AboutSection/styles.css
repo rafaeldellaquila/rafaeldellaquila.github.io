@@ -1,0 +1,11 @@
+.about-section {
+  background-color: var(--color-zero);
+  padding: var(--space-big) var(--space-med) var(--space-big) var(--space-med);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.about-section > .social-icons {
+  margin-bottom: var(--space-big);
+}

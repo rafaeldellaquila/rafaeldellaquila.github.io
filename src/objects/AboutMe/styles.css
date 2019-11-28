@@ -1,0 +1,18 @@
+.about-me > .title {
+  color: var(--color-primary);
+  font-size: var(--size-big);
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+  font-weight: 800;
+}
+
+.about-me > .description {
+  color: var(--color-primary);
+  font: normal normal 400 var(--size-med) / 2 'Merriweather', sans-serif;
+}
+
+.about-me > .portifolio {
+  color: var(--color-primary);
+  font: italic normal normal var(--size-med) / 1.25 'Merriweather', sans-serif;
+}

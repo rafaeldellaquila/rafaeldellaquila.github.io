@@ -4,10 +4,10 @@ import './styles.css';
 
 function ScrollArrow() {
   return (
-    <div className="scroll-arrow">
-      <span className="text">scroll</span>
+    <a className="scroll-arrow" href="#about-section">
+      scroll
       <img src={DownArrow} alt="down arrow scroll" className="arrow" />
-    </div>
+    </a>
   );
 }
 export default ScrollArrow;
