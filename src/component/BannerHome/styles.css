@@ -4,6 +4,7 @@
   flex-flow: column nowrap;
   align-items: center;
   padding: var(--space-big) 0 var(--space-min) 0;
+  margin-bottom: var(--space-min);
 }
 
 .banner-home > .banner-title {

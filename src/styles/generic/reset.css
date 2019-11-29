@@ -1,7 +1,9 @@
-@import-normalize;
 h1,
 h2,
-body {
+body,
+dd,
+dt,
+dl {
   margin: 0;
 }
 
