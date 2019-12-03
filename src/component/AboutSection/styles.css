@@ -1,6 +1,6 @@
 .about-section {
   background-color: var(--color-zero);
-  padding: var(--space-big) var(--space-med) var(--space-big) var(--space-med);
+  padding: var(--space-big) var(--space-big) var(--space-big) var(--space-med);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
