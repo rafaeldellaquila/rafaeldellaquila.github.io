@@ -1,13 +1,13 @@
 .skill-description {
-  color: white;
+  color: var(--color-primary);
 }
 
 .skill-description > .title:before {
   content: '';
   display: block;
   width: 60px;
-  height: 5px;
-  background-color: white;
+  height: 4px;
+  background-color: var(--color-primary);
   margin-bottom: var(--space-min);
 }
 

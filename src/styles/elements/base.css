@@ -5,6 +5,6 @@ body {
 }
 
 ::selection {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-primary);
   color: var(--color-zero);
 }
