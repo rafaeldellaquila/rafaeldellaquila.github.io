@@ -1,0 +1,9 @@
+.email-contact {
+    color: var(--color-zero);
+    font-size: var(--size-med);
+    text-decoration: none;
+}
+
+.email-contact:visited {
+    color: inherit;
+}

@@ -5,6 +5,7 @@ import BannerHome from './component/BannerHome';
 import AboutSection from './component/AboutSection';
 import SkillSection from './component/SkillSection';
 import PortfolioSection from './component/PortfolioSection';
+import ContactFooter from './component/ContactFooter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <SkillSection />
       <PortfolioSection />
+      <ContactFooter />
     </>
   );
 }
