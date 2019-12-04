@@ -12,3 +12,9 @@
   height: 34px;
   margin-top: 5px;
 }
+
+.scroll-arrow::after {
+  margin-top: 5px;
+  content: url(../../img/down-arrow.png);
+  display: block;
+}
