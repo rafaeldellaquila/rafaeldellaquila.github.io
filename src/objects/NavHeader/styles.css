@@ -1,0 +1,8 @@
+.nav-header > .action {
+    color: var(--color-zero);
+    text-decoration: none;
+}
+
+.nav-header > .action:nth-child(1) {
+    padding-right: 55px;
+}
