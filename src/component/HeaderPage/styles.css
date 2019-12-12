@@ -2,6 +2,27 @@
   width: 100vw;
   background-color: var(--color-primary);
   display: flex;
-  justify-content: center;
-  padding: var(--space-min) 0 var(--space-min) 0;
+  justify-content: left;
+  flex-direction: row;
+  padding: var(--space-min) var(--space-med) var(--space-min) var(--space-med);
+}
+
+.header-page > .nav-header {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .header-page { 
+    padding-left: 80px;
+    box-sizing: border-box;
+  }
+  .header-page > .nav-header {
+    display: block;
+    margin-left: auto;
+    padding-right: 40px;
+  }
+
+  .header-page > .nav-header > .action:hover {
+    text-decoration: underline;
+  }
 }

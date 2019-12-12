@@ -1,11 +1,13 @@
 import React from 'react';
-import HeaderName from '../../objects/HeaderName';
 import './styles.css';
+import HeaderName from '../../objects/HeaderName';
+import NavHeader from '../../objects/NavHeader';
 
 function HeaderPage() {
   return (
     <header className="header-page">
       <HeaderName />
+      <NavHeader />
     </header>
   );
 }
