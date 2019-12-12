@@ -8,12 +8,12 @@
   width: 60px;
   height: 4px;
   background-color: var(--color-primary);
-  margin-bottom: var(--space-min);
+  margin-bottom: var(--space-40);
 }
 
 .skill-description > .title {
   font-size: var(--size-big);
-  margin-bottom: var(--space-med);
+  margin-bottom: var(--space-40);
 }
 
 .skill-description > .skill {
