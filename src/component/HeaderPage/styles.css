@@ -4,7 +4,7 @@
   display: flex;
   justify-content: left;
   flex-direction: row;
-  padding: var(--space-min) var(--space-med) var(--space-min) var(--space-med);
+  padding: var(--space-40);
 }
 
 .header-page > .nav-header {
@@ -13,7 +13,7 @@
 
 @media (min-width: 700px) {
   .header-page { 
-    padding-left: 80px;
+    padding-left: var(--space-80);
     box-sizing: border-box;
   }
   .header-page > .nav-header {

@@ -1,11 +1,11 @@
 .about-section {
   background-color: var(--color-zero);
-  padding: var(--space-big) var(--space-big) var(--space-big) var(--space-med);
+  padding: var(--space-60) var(--space-60) var(--space-60) var(--space-40);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
 
 .about-section > .social-icons {
-  margin-bottom: var(--space-big);
+  margin-bottom: var(--space-60);
 }
