@@ -5,7 +5,7 @@ import PhotoDois from '../../img/photo-2.png';
 
 function PortfolioSection() {
   return (
-    <section className="portifoli-section">
+    <section className="portifolio-section">
       <PortfolioThumb src={PhotoUm} alt="projeto do linkedin" />
       <PortfolioThumb src={PhotoDois} alt="projeto Solaris" />
       <PortfolioThumb src={PhotoUm} alt="projeto do linkedin" />
