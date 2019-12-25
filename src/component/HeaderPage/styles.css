@@ -10,16 +10,24 @@
 
 @media (min-width: 700px) {
   .header-page {
-    padding-left: var(--space-80);
+    padding-left: var(--space-40);
     box-sizing: border-box;
   }
   .header-page > .nav-header {
     display: block;
     margin-left: auto;
-    padding-right: 40px;
   }
 
   .header-page > .nav-header > .action:hover {
     text-decoration: underline;
+  }
+}
+
+@media (min-width: 1080px) {
+  .header-page {
+    padding-left: var(--space-80);
+  }
+  .header-page > .nav-header {
+    padding-right: 40px;
   }
 }
