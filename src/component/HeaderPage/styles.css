@@ -5,6 +5,7 @@
   justify-content: left;
   flex-direction: row;
   padding: var(--space-40);
+  box-sizing: border-box;
 }
 
 .header-page > .nav-header {
