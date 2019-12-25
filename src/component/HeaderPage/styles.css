@@ -5,7 +5,7 @@
   justify-content: left;
   flex-direction: row;
   padding: var(--space-40);
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .header-page > .nav-header {
@@ -13,7 +13,7 @@
 }
 
 @media (min-width: 700px) {
-  .header-page { 
+  .header-page {
     padding-left: var(--space-80);
     box-sizing: border-box;
   }
