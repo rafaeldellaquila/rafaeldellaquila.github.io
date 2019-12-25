@@ -9,4 +9,21 @@
 
 .banner-home > .banner-title {
   margin-bottom: var(--space-60);
+  margin-top: 10vw;
+}
+
+.banner-home > .scroll-arrow {
+  margin-top: 5vw;
+}
+
+@media (min-width: 700px) {
+  .banner-home {
+    margin: 0 var(--space-40) var(--space-40) var(--space-40);
+  }
+}
+
+@media (min-width: 1080px) {
+  .banner-home {
+    margin: 0 var(--space-80) var(--space-80) var(--space-80);
+  }
 }
