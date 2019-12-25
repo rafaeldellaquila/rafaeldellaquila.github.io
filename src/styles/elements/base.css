@@ -2,7 +2,6 @@ body {
   background-color: var(--color-primary);
   font-family: 'Montserrat', sans-serif;
   min-width: 290px;
-  overflow-x: hidden;
 }
 
 ::selection {
