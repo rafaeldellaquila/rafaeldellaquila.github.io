@@ -1,10 +1,10 @@
 import React from 'react';
-import SkillDescription from '../../objects/SkillDescription';
+import SkillDescription from '../SkillDescription';
 import './styles.css';
 
-function SkillSection() {
+function SkillSide() {
   return (
-    <section className="skill-section">
+    <aside className="skill-side">
       <SkillDescription
         title="Front-end"
         skillUm="html e css"
@@ -19,8 +19,8 @@ function SkillSection() {
         skillTres="user interface"
         skillQuatro="user experience"
       />
-    </section>
+    </aside>
   );
 }
 
-export default SkillSection;
+export default SkillSide;

@@ -1,0 +1,22 @@
+.portifolio-section {
+  display: grid;
+}
+
+.portifolio-section > .portfolio-thumb {
+  display: flex;
+}
+
+.portifolio-section > .portfolio-thumb > .image {
+  width: 100vw;
+}
+
+@media (min-width: 700px) {
+  .portifolio-section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portifolio-section > .portfolio-thumb > .image {
+    width: 50vw;
+    display: block;
+  }
+}

@@ -1,15 +1,30 @@
 .contact-footer {
-    padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--space-40);
 }
 .contact-footer > .contact-title {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
-.contact-footer > .social-icons {
-    margin-bottom: 18px;
+.contact-footer > .links > .social-icons {
+  margin-bottom: 18px;
 }
 
 .contact-footer > .avatar-contact {
-    margin-top: 50px;
-    display: block;
+  margin-top: 50px;
+  display: block;
+  width: 288px;
+  height: 288px;
+}
+
+@media (min-width: 700px) {
+  .contact-footer > .contact-title {
+    margin-right: 66px;
+  }
+
+  .contact-footer > .avatar-contact {
+    margin-top: 0;
+  }
 }
