@@ -14,17 +14,48 @@
 
 .contact-footer > .avatar-contact {
   margin-top: 50px;
-  display: block;
   width: 288px;
   height: 288px;
 }
 
 @media (min-width: 700px) {
+  .contact-footer {
+    justify-content: center;
+  }
   .contact-footer > .contact-title {
-    margin-right: 66px;
+    margin-right: var(--space-40);
   }
 
   .contact-footer > .avatar-contact {
     margin-top: 0;
+    align-self: center;
+  }
+  .contact-footer > .links {
+    margin-right: var(--space-40);
+  }
+}
+
+@media (min-width: 1080px) {
+  .contact-footer {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contact-footer > .contact-title {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 48px;
+  }
+
+  .contact-footer > .contact-title > .subtitle {
+    position: absolute;
+    top: -16px;
+  }
+  .contact-footer > .contact-title::after {
+    margin-left: 30px;
+    display: inline;
+    position: relative;
+    bottom: var(--space-40);
   }
 }
