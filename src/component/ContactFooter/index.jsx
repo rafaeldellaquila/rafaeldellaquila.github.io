@@ -9,8 +9,10 @@ function ContactFooter() {
   return (
     <footer className="contact-footer">
       <ContactTitle />
-      <SocialIcons />
-      <EmailContact />
+      <div className="links">
+        <SocialIcons />
+        <EmailContact />
+      </div>
       <AvatarContact />
     </footer>
   );
