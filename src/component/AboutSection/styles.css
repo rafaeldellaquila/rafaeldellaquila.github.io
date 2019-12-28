@@ -18,7 +18,7 @@
   background-color: var(--color-secondary);
   border-top: 4px solid var(--color-primary);
   box-sizing: content-box;
-  width: 100vw;
+  width: 100%;
   margin-top: var(--space-60);
   padding: 115px 20px 115px 0;
   display: flex;
@@ -54,7 +54,7 @@
   }
 
   .about-section > .about {
-    padding-right: var(--space-60);
+    margin-right: var(--space-60);
     width: 670px;
   }
 
@@ -77,5 +77,27 @@
     padding-top: 80px;
     padding-left: 40px;
     box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1360px) {
+  .about-section > .about {
+    max-width: 666px;
+  }
+
+  .about-section > .skill-side {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about-section > .about {
+    margin-left: var(--space-60);
+  }
+}
+
+@media (min-width: 1800px) {
+  .about-section > .about {
+    margin-left: 140px;
   }
 }
