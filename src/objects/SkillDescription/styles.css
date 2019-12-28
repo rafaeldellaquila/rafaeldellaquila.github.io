@@ -17,6 +17,5 @@
 }
 
 .skill-description > .skill {
-  font-size: var(--size-med);
-  font: normal normal 400 var(--size-med) / 2 'Merriweather', sans-serif;
+  font: normal normal 400 20px / 2 'Merriweather', sans-serif;
 }
