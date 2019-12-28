@@ -1,6 +1,6 @@
 .about-section {
   background-color: var(--color-zero);
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -49,6 +49,8 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    margin-left: var(--space-80);
+    margin-right: var(--space-80);
   }
 
   .about-section > .about {
@@ -69,15 +71,11 @@
     margin-right: var(--space-60);
   }
 }
-/* 
+
 @media (min-width: 1240px) {
   .about-section {
     padding-top: 80px;
     padding-left: 40px;
     box-sizing: border-box;
   }
-
-  .about-section > .about {
-    max-width: 400px;
-  }
-} */
+}

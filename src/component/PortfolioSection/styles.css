@@ -1,5 +1,6 @@
 .portifolio-section {
   display: grid;
+  box-sizing: border-box;
 }
 
 .portifolio-section > .portfolio-thumb {
@@ -16,7 +17,20 @@
   }
 
   .portifolio-section > .portfolio-thumb > .image {
-    width: 50vw;
+    width: 100%;
     display: block;
+  }
+}
+
+@media (min-width: 1080px) {
+  .portifolio-section {
+    margin-left: var(--space-80);
+    margin-right: var(--space-80);
+  }
+}
+
+@media (min-width: 1240px) {
+  .portifolio-section {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
