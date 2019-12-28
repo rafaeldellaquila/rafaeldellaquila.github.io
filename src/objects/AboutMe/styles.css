@@ -16,3 +16,9 @@
   color: var(--color-primary);
   font: italic normal normal var(--size-med) / 1.25 'Merriweather', sans-serif;
 }
+
+@media (min-width: 1440px) {
+  .about-me > .title {
+    font-size: 40px;
+  }
+}
