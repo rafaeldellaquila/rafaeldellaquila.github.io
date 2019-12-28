@@ -14,8 +14,8 @@
 
 .contact-footer > .avatar-contact {
   margin-top: 50px;
-  width: 288px;
-  height: 288px;
+  width: 210px;
+  height: 210px;
 }
 
 @media (min-width: 700px) {
@@ -39,6 +39,10 @@
   .contact-footer {
     justify-content: flex-start;
     align-items: center;
+    margin-left: var(--space-80);
+    margin-right: var(--space-80);
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .contact-footer > .contact-title {
@@ -57,5 +61,16 @@
     display: inline;
     position: relative;
     bottom: var(--space-40);
+  }
+}
+
+@media (min-width: 1240px) {
+  .contact-footer {
+    justify-content: space-between;
+  }
+
+  .contact-footer > .avatar-contact {
+    width: 250px;
+    height: 250px;
   }
 }
