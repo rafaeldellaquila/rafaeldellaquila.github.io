@@ -12,3 +12,12 @@
 .social-icons .social:last-child {
   margin: 0;
 }
+
+@media (min-width: 1800px) {
+  .contact-footer > .links > .social-icons .icon {
+    height: 40px;
+  }
+  .contact-footer > .links > .social-icons .social {
+    margin-right: 33px;
+  }
+}
