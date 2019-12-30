@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 48px;
+    top: 24px;
   }
 
   .contact-footer > .contact-title > .subtitle {
