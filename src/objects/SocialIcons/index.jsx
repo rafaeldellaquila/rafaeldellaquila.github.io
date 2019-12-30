@@ -1,10 +1,11 @@
 import React from 'react';
 import './styles.css';
-import Github from '../../img/icon-github.png';
-import Behance from '../../img/icon-behance.png';
-import Email from '../../img/icon-email.png';
-import Telegram from '../../img/icon-telegram.png';
-import Linkedin from '../../img/icon-linkedin.png';
+import Github from '../../img/icon-github.svg';
+import Behance from '../../img/icon-behance.svg';
+import Email from '../../img/icon-email.svg';
+import Telegram from '../../img/icon-telegram.svg';
+import Linkedin from '../../img/icon-linkedin.svg';
+import Whatsapp from '../../img/icon-wpp.svg';
 
 function SocialIcons() {
   return (
@@ -33,7 +34,7 @@ function SocialIcons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="icon" src={Behance} alt="Icone do behance" />
+          <img className="icon" src={Behance} alt="Icone do Behance" />
         </a>
       </ul>
       <ul className="social">
@@ -51,7 +52,16 @@ function SocialIcons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="icon" src={Telegram} alt="Icone do E-mail" />
+          <img className="icon" src={Telegram} alt="Icone do Telegram" />
+        </a>
+      </ul>
+      <ul className="social">
+        <a
+          href="https:api.whatsapp.com/send?1=pt_BR&phone=5511964436880"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="icon" src={Whatsapp} alt="Icone do WhatsApp" />
         </a>
       </ul>
     </dl>
