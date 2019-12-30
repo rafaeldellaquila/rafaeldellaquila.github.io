@@ -1,8 +1,14 @@
 .nav-header > .action {
-    color: var(--color-zero);
-    text-decoration: none;
+  color: var(--color-zero);
+  text-decoration: none;
 }
 
 .nav-header > .action:nth-child(1) {
-    padding-right: 55px;
+  padding-right: 55px;
+}
+
+@media (min-width: 1800px) {
+  .nav-header > .action {
+    font-size: 18px;
+  }
 }

@@ -1,9 +1,15 @@
 .email-contact {
-    color: var(--color-zero);
-    font-size: var(--size-med);
-    text-decoration: none;
+  color: var(--color-zero);
+  font-size: var(--size-med);
+  text-decoration: none;
 }
 
 .email-contact:visited {
-    color: inherit;
+  color: inherit;
+}
+
+@media (min-width: 1800px) {
+  .email-contact {
+    font-size: 34px;
+  }
 }
