@@ -56,12 +56,6 @@
     position: absolute;
     top: -16px;
   }
-  .contact-footer > .contact-title::after {
-    margin-left: 30px;
-    display: inline;
-    position: relative;
-    bottom: var(--space-40);
-  }
 }
 
 @media (min-width: 1240px) {
