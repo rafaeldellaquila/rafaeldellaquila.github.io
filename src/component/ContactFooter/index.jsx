@@ -7,7 +7,7 @@ import AvatarContact from '../../objects/AvatarContact';
 
 function ContactFooter() {
   return (
-    <footer className="contact-footer">
+    <footer className="contact-footer" id="contatos">
       <ContactTitle />
       <div className="links">
         <SocialIcons />
