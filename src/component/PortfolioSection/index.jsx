@@ -6,7 +6,7 @@ import './styles.css';
 
 function PortfolioSection() {
   return (
-    <section className="portifolio-section">
+    <section className="portifolio-section" id="projetos">
       <PortfolioThumb src={PhotoUm} alt="projeto do linkedin" />
       <PortfolioThumb src={PhotoDois} alt="projeto Solaris" />
       <PortfolioThumb src={PhotoUm} alt="projeto do linkedin" />

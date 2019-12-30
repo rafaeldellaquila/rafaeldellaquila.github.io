@@ -10,21 +10,11 @@
   text-transform: none;
 }
 
-.contact-title::after {
-  margin-top: 15px;
-  display: block;
-  content: url(../../img/right-arrow.png);
-}
-
 @media (min-width: 1800px) {
   .contact-title {
     font-size: 90px;
   }
   .contact-title > .subtitle {
     font-size: 30px;
-  }
-
-  .contact-title::after {
-    margin-top: 24px;
   }
 }
